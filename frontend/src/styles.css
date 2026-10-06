@@ -36,12 +36,12 @@ body {
 }
 
 .cb-root { min-height: 100vh; }
-.cb-shell { max-width: 780px; margin: 0 auto; padding: 20px 18px 60px; }
+.cb-shell { max-width: 1080px; margin: 0 auto; padding: 24px 28px 60px; }
 
 /* Nav */
 .cb-nav {
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
-  max-width: 780px; margin: 0 auto; padding: 18px 18px 0;
+  max-width: 1080px; margin: 0 auto; padding: 22px 28px 0;
 }
 .cb-nav-brand { display: flex; align-items: center; gap: 10px; }
 .mark {
@@ -93,7 +93,7 @@ body {
   width: 56px; height: 56px; border-radius: 6px; overflow: hidden; background: var(--panel-2);
   display: flex; align-items: center; justify-content: center; border: 1px solid var(--rule); flex-shrink: 0;
 }
-.cb-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cb-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .cb-info { min-width: 0; }
 .cb-name { font-family: 'Anton', sans-serif; font-size: 19px; color: var(--ink); letter-spacing: 0.3px; line-height: 1.1;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -125,7 +125,7 @@ body {
 .cb-file-btn { border: 1.5px solid var(--rule); background: #fff; border-radius: 5px; padding: 9px 10px; cursor: pointer; display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-muted); flex-shrink: 0; }
 .cb-file-btn input { display: none; }
 .cb-preview { width: 40px; height: 40px; border-radius: 5px; overflow: hidden; border: 1px solid var(--rule); flex-shrink: 0; background: var(--panel-2); }
-.cb-preview img { width: 100%; height: 100%; object-fit: cover; }
+.cb-preview img { width: 100%; height: 100%; object-fit: contain; }
 .cb-form-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
 
 /* Auth pages */
@@ -146,7 +146,7 @@ body {
 .cb-dot.done { background: var(--brass); }
 .cb-dot.current { background: var(--work); }
 .cb-timer-img { width: 190px; height: 190px; border-radius: 10px; overflow: hidden; margin: 10px 0 14px; background: var(--panel-2); display: flex; align-items: center; justify-content: center; border: 2px solid var(--rule); }
-.cb-timer-img img { width: 100%; height: 100%; object-fit: cover; }
+.cb-timer-img img { width: 100%; height: 100%; object-fit: contain; }
 .cb-timer-name { font-family: 'Anton', sans-serif; font-size: 24px; color: var(--ink); }
 .cb-timer-meta { font-family: 'IBM Plex Mono', monospace; color: var(--ink-muted); font-size: 13px; margin-top: 4px; }
 .cb-phase-label { font-weight: 700; font-size: 13px; letter-spacing: 1.5px; margin-top: 18px; padding: 4px 12px; border-radius: 20px; }
